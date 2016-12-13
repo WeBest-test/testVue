@@ -1,8 +1,7 @@
 <template>
     <header>
-        <div class="aaa">111</div>
-        <div class="aaa">222</div>
-        <div class="aaa">333</div>
+        <div class="logo">111</div>
+        <div class="title">OpenLib</div>
     </header>
 </template>
 
@@ -23,9 +22,20 @@
 </script>
 
 <style lang="sass" scoped>
-    header{
-        background-color: red;
+    header {
+        height: 3rem;
+        background-color: lighten(black, 10%);
 
+        & >  * {
+            display: inline-block;
+            height:100%;
+            line-height: 3rem;
+            color:lighten(black, 10%);
+        }
+
+        .title {
+            color: white;
+        }
 
     }
 </style>
