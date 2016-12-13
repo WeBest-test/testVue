@@ -3,18 +3,15 @@
         <div class="aaa">111</div>
         <div class="aaa">222</div>
         <div class="aaa">333</div>
-        <el-button>默认按钮</el-button>
-        <el-button type="primary">主要按钮</el-button>
-        <el-button type="text">文字按钮</el-button>
     </header>
 </template>
 
 <script>
   import Vue from 'vue'
-  import ElementUI from 'element-ui'
-  import 'element-ui/lib/theme-default/index.css'
+  //import ElementUI from 'element-ui'
+  //import 'element-ui/lib/theme-default/index.css'
 
-  Vue.use(ElementUI);
+  //Vue.use(ElementUI);
 
   export default {
     data () {
@@ -25,6 +22,10 @@
   }
 </script>
 
-<style>
-    
+<style lang="sass" scoped>
+    header{
+        background-color: red;
+
+
+    }
 </style>
